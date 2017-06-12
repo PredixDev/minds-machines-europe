@@ -50,6 +50,8 @@ In your space you are going to see multiple services:
 
 The User Account and Authentication Service (UAA) is a OAuth2 server that can be used for centralized identity management. You can have a look at UAA [here](https://docs.predix.io/en-US/content/service/security/user_account_and_authentication/).
 
+The **admin secret** is : MMEurope
+
 We already created 1 UAA client and 1 user:
 * **Client ID** : client
 * **Client Secret** : secret
