@@ -52,7 +52,8 @@ In addition 2 lots of 15 sets of alternate sensors will be available on demand:
 Here is a description of the dataflow:
 1. Data generated from sensors is collected by an instance of Predix Machine deployed on the board. Sensor data is interpreted by the Predix Machine using an adaptor leveraging Intel sensor libraries.
 2. The Predix Machine buffers this data locally (store and forward)
-3. The Predix Machine sends the data to a Predix Timeseries instance in your Cloud space
+3. A predix-machine-template-processor logs the data going by: https://github.com/PredixDev/predix-machine-template-processor
+4. The Predix Machine sends the data to a Predix Timeseries instance in your Cloud space
 
 You can find more information about the Predix Machine here:
 - https://docs.predix.io/en-US/content/service/edge_software_and_services/machine/predix-machine-overview
